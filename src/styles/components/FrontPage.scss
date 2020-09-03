@@ -1,0 +1,48 @@
+.frontpage {
+    margin: 0;
+    padding: 0;
+}
+
+.frontpage__media {
+    display: flex;
+    flex-direction: row-reverse;
+    object-fit: contain;
+}
+
+.frontpage__media > img {
+    width: 700px;
+    margin-top: 15vh;
+    margin-right: 50px;
+}
+
+.frontpage__text {
+    font-family: sans-serif;
+    font-size: 35px;
+    margin-top: 45vh;
+    margin-right: auto;
+    margin-left: 90px;
+}
+
+.frontpage__text > span {
+    animation: text 4s 1;
+}
+@keyframes text {
+    0% { color: black;
+    }
+    40% {
+        letter-spacing: 2px;
+    }
+}
+
+
+.animate__line span:before {
+    font-size: 35px;
+    content: '';
+    color: grey;
+    animation: animation 5s linear infinite;
+}
+@keyframes animation{
+    0%,100% {content: "AI";}
+    60% {content: "React-Apps";}
+    40% {content: "WEB";}
+}

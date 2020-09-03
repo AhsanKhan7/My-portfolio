@@ -1,0 +1,37 @@
+.who {
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    background-color: #545454;
+}
+
+.who__media {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.who__media > h5 {
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 31px;
+    color: white;
+    margin-left: 400px;
+    margin-right: 100px;
+    animation: text 3s 1;   
+}
+@keyframes text {
+    0% { color: white;
+        margin-bottom: -40px;
+    }
+    40% {
+        letter-spacing: 2px;
+        margin-bottom: -10px;
+    }
+}
+
+.who__media > h2 {
+    font-family: sans-serif;
+    color: white;
+    margin-left: 100px;
+}
+
