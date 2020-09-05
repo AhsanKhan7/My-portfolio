@@ -1,0 +1,55 @@
+.project {
+    padding: 50px;
+    background: lightgrey;
+    animation: background 7s 1;
+}
+@keyframes background {
+    10% { background: black;
+    }
+    40% {
+        background: lightgrey;
+    }
+}
+
+.project__logo {
+    font-family: sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: -19px;
+    margin-bottom: 70px;
+    font-size: 30px;    
+}
+
+.project__logo > span {
+    font-size: 40px;
+    color: black;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 50px;
+    background: #eee;
+}
+
+// .card > h3 {
+    // margin-bottom: 2rem;
+// }
+
+.card > div {
+    font-family: sans-serif;
+    padding: 3.3rem;
+}
+
+.card > img {
+    height: 400px;
+}
+.card:nth-child(even) img {
+    order: 2;
+}
+
+.card > div > a {
+    font-weight: bold;
+    text-decoration: none;
+}

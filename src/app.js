@@ -2,10 +2,22 @@ import ReactDOM from 'react-dom'
 import React from 'react'
 import Who from './components/Who'
 import FrontPage from './components/FrontPage'
+import Projects from './components/Projects'
 import 'normalize.css/normalize.css'
 import './styles/style.scss'
 
-ReactDOM.render(<Who />, document.getElementById('app'))
+const App = () => {
+    return (
+        <div>
+            <FrontPage />
+            <Who />
+            <div style={{ height: '30px'}}></div>
+            <Projects />
+        </div>
+    )
+}
+
+ReactDOM.render(<App />, document.getElementById('app'))
 
 
 // class OldSyntax {
