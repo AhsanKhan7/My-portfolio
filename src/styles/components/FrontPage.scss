@@ -1,28 +1,106 @@
 .frontpage {
+    // background: black;
     margin: 0;
     padding: 0;
-    margin-bottom: 90px;
 }
 
 .frontpage__media {
-    display: flex;
-    flex: 1;
-    flex-direction: row-reverse;
-    object-fit: contain;
+    // display: flex;
 }
 
-.frontpage__media > img {
-    width: 700px;
-    margin-top: 15vh;
-    margin-right: 50px;
+.para {
+    height: 100vh;
 }
+
 
 .frontpage__text {
+    height: 100vh;
     font-family: sans-serif;
     font-size: 35px;
-    margin-top: 45vh;
-    margin-right: auto;
-    margin-left: 90px;
+    text-align: center;
+}
+
+.name_text {
+    align-items: center;
+    // top: 30%;
+    height: 15.3em;
+    display: flex;
+    justify-content: center;
+}
+
+.name_text > h2 {
+    color: white;
+    padding-right: 20px;
+}
+
+.name_text  .a {
+    color: white;
+    -webkit-text-stroke: 1px white;
+    animation: words 11s ;
+}
+
+@keyframes words {
+    0% { color: #242424;
+    }
+    100% {
+        color: white;
+    }
+}
+
+.name_text  .h {
+    color: white;
+    // -webkit-text-stroke: 1px white;
+    animation: words 8s ;
+}
+
+@keyframes words {
+    0% { color: #242424;
+    }
+    100% {
+        color: #242424;
+    }
+}
+
+.name_text  .s {
+    color: black;
+    -webkit-text-stroke: 1px black;
+    animation: words 17s ;
+}
+
+@keyframes words {
+    0% { color: white;
+    }
+    100% {
+        color: black;
+    }
+}
+
+.name_text  .e {
+    color: black;
+    -webkit-text-stroke: 1px black;
+    animation: words 4s ;
+}
+
+@keyframes words {
+    0% { color: white;
+    }
+    100% {
+        color: black;
+    }
+}
+
+.name_text  .n {
+    color: black;
+    -webkit-text-stroke: 1px black;
+    animation: words 7s ;
+}
+
+@keyframes words {
+    0% { color: white;
+    }
+    100% {
+        color: black;
+    }
 }
 
 .frontpage__text > span {
@@ -37,14 +115,28 @@
 }
 
 
-.animate__line span:before {
-    font-size: 35px;
-    content: '';
-    color: grey;
-    animation: animation 5s linear infinite;
+.animate__line{
+    // color: #6b6b6b;
+    color: darkgray;
+    text-align: center;
+    line-height: 1.5em;
+    padding-right: 250px;
+    padding-left: 250px;
+    position: absolute;
+    top: 60%
 }
-@keyframes animation{
-    0%,100% {content: "AI";}
-    60% {content: "React-Apps";}
-    40% {content: "WEB";}
+
+.animate__line > span {
+    text-align: center;
 }
+// .animate__line span:before {
+//     font-size: 35px;
+//     content: '';
+//     color: grey;
+//     animation: animation 5s linear infinite;
+// }
+// @keyframes animation{
+//     0%,100% {content: "AI";}
+//     60% {content: "React-Apps";}
+//     40% {content: "WEB";}
+// }
