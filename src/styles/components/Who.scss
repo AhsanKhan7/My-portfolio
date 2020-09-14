@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     height: 470px;
-    background-color: #545454;
+    background-color: #141414;
 }
 
 .who__media {
@@ -18,18 +18,17 @@
     color: white;
     margin-left: 400px;
     margin-right: 100px;
-    animation: text 3s 1;   
+    // animation: text 3s 1;   
 }
-@keyframes text {
-    0% { color: white;
-        margin-bottom: -40px;
-    }
-    40% {
-        letter-spacing: 2px;
-        margin-bottom: -10px;
-    }
-}
-
+// @keyframes text {
+//     0% { color: white;
+//         margin-bottom: -40px;
+//     }
+//     40% {
+//         letter-spacing: 2px;
+//         margin-bottom: -10px;
+//     }
+// }
 
 .who__media > h2 {
     font-family: sans-serif;
@@ -37,3 +36,6 @@
     margin-left: 100px;
 }
 
+.who__media > h5  strong {
+    font-weight: 800;
+}

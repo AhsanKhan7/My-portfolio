@@ -8,10 +8,9 @@
     // display: flex;
 }
 
-.para {
-    height: 100vh;
-}
-
+// .paral {
+//     object-fit: contain;
+// }
 
 .frontpage__text {
     height: 100vh;
@@ -22,10 +21,13 @@
 
 .name_text {
     align-items: center;
-    // top: 30%;
     height: 15.3em;
     display: flex;
     justify-content: center;
+}
+
+.name_text > h1 {
+    color: white;
 }
 
 .name_text > h2 {
@@ -33,86 +35,88 @@
     padding-right: 20px;
 }
 
-.name_text  .a {
-    color: white;
-    -webkit-text-stroke: 1px white;
-    animation: words 11s ;
-}
 
-@keyframes words {
-    0% { color: #242424;
-    }
-    100% {
-        color: white;
-    }
-}
+// .name_text > h1 > span:nth-child(1) {
+//     color: white;
+//     // background-color: #242424;
+//     -webkit-text-stroke: 1px #242424;
+//     animation: words 11s ;
+// }
 
-.name_text  .h {
-    color: white;
-    // -webkit-text-stroke: 1px white;
-    animation: words 8s ;
-}
+// @keyframes words {
+//     10% { color: white;
+//     }
+//     80% {
+//         color: white;
+//     }
+// }
 
-@keyframes words {
-    0% { color: #242424;
-    }
-    100% {
-        color: #242424;
-    }
-}
+// .name_text > h1 > span:nth-child(2) {
+//     color: white;
+//     -webkit-text-stroke: 1px #242424;
+//     animation: words 8s ;
+// }
 
-.name_text  .s {
-    color: black;
-    -webkit-text-stroke: 1px black;
-    animation: words 17s ;
-}
+// @keyframes words {
+//     0% { color: #242424;
+//     }
+//     100% {
+//         color: #242424;
+//     }
+// }
 
-@keyframes words {
-    0% { color: white;
-    }
-    100% {
-        color: black;
-    }
-}
+// .name_text > h1 > span:nth-child(3) {
+//     color: black;
+//     -webkit-text-stroke: 1px black;
+//     animation: words 17s ;
+// }
 
-.name_text  .e {
-    color: black;
-    -webkit-text-stroke: 1px black;
-    animation: words 4s ;
-}
+// @keyframes words {
+//     0% { color: white;
+//     }
+//     100% {
+//         color: black;
+//     }
+// }
 
-@keyframes words {
-    0% { color: white;
-    }
-    100% {
-        color: black;
-    }
-}
+// .name_text > h1 > span:nth-child(4) {
+//     color: black;
+//     -webkit-text-stroke: 1px black;
+//     animation: words 4s ;
+// }
 
-.name_text  .n {
-    color: black;
-    -webkit-text-stroke: 1px black;
-    animation: words 7s ;
-}
+// @keyframes words {
+//     0% { color: white;
+//     }
+//     100% {
+//         color: black;
+//     }
+// }
 
-@keyframes words {
-    0% { color: white;
-    }
-    100% {
-        color: black;
-    }
-}
+// .name_text > h1 > span:nth-child(5) {
+//     color: black;
+//     -webkit-text-stroke: 1px black;
+//     animation: words 7s ;
+// }
 
-.frontpage__text > span {
-    animation: text 4s 1;
-}
-@keyframes text {
-    0% { color: black;
-    }
-    40% {
-        letter-spacing: 2px;
-    }
-}
+// @keyframes words {
+//     0% { color: white;
+//     }
+//     100% {
+//         color: black;
+//     }
+// }
+
+// .frontpage__text > span {
+//     animation: text 4s 1;
+// }
+// @keyframes text {
+//     0% { color: black;
+//     }
+//     40% {
+//         letter-spacing: 2px;
+//     }
+// }
 
 
 .animate__line{
