@@ -31,6 +31,102 @@
     width: 100%;
 }
 
+.container {
+    position: relative;
+}
+  
+.container img {
+    // display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+  
+.overlay {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: darkgrey;
+}
+  
+.container:hover .overlay {
+    opacity: 1;
+}
+ 
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlayleft {
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 0;
+}
+
+.text-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-links h5 a {
+    color: white;
+    text-decoration: none;
+}
+
+.text-links h5 a:hover {
+    color: black;
+}
+
+// .overlayright {
+//     height: 100%;
+//     width: 0;
+//     top: 0;
+//     right: 0;
+// }
+
+// .overlaytop {
+//     width: 100%;
+//     height: 0;
+//     top: 0;
+//     left: 0;
+// }
+
+// .overlaybottom {
+//     width: 100%;
+//     height: 0;
+//     bottom: 0;
+//     left: 0;
+// }
+
+// .container:hover .overlayleft .container:hover .overlayright {
+//     width: 100%;
+// }
+
+// .container:hover .overlaytop .container:hover .overlaybottom {
+//     height: 100%;
+// }
+  
+.container:hover .overlay {
+    width: 100%;
+}
+
+
 .project__logo {
     font-family: sans-serif;
     color: whitesmoke;

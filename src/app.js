@@ -6,6 +6,8 @@ import Projects from './components/Projects'
 import 'normalize.css/normalize.css'
 import './styles/style.scss'
 
+import Dark from './components/Dark'
+
 const App = () => {
     return (
         <div>
@@ -17,7 +19,7 @@ const App = () => {
     )
 }
 
-ReactDOM.render(<App />, document.getElementById('app'))
+ReactDOM.render(<Dark />, document.getElementById('app'))
 
 
 // class OldSyntax {
